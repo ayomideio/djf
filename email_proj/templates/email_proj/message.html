@@ -1,0 +1,20 @@
+<div style="text-align:center">
+    <span style="font-family:arial,helvetica,sans-serif;font-size:13px;line-height:16px;color:rgb(0,0,0)">
+        <p align="left"> 
+     
+        <p align="left">
+             <strong>{{body}}</strong>
+        </p>
+        <form action="http://127.0.0.1:8000/api/" method="post">
+            <label for="emailName"> Name:</label>
+            <input type="text" id="emailName" name="emailName"><br><br>
+            <label for="emailSubject">Subject :</label>
+            <input type="text" id="emailSubject" name="emailSubject"><br><br>
+            <label for="emailList">Recipients :</label>
+            <input type="text" id="emailList" name="emailList"><br><br>
+            <label for="emailBody">Body :</label>
+            <input type="text" id="emailBody" name="emailBody"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+    </span>
+</div>
