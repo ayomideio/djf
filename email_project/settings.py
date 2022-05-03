@@ -129,4 +129,5 @@ EMAIL_HOST ='smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_PASSWORD = 'alvvcakmxqbfgvfa'    #Give Password here
 EMAIL_USE_TLS = False
-EMAIL_USE_SSL = True
+EMAIL_USE_SSL = Trueimport django_heroku
+django_heroku.settings(locals())
